@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+/* ********** header join as started ********** */
+
+.header-joinas{
+    height: 10vh;
+    margin-top: 15px;
+}
+
+.header-joinas .header-first div p span a i{
+    color: #5768ac;
+    font-size: 35px;
+}
+
+.header-joinas .header-first div p{
+    color: #5768ac;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.header-joinas .header-middle div p{
+    color: lightslategray;
+    font-size: 0.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.header-joinas .header-last div {
+    margin-top: 10px;
+}
+
+.header-joinas .header-last div a{
+    color: white;
+    background: #5768ac;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* ********** header join as endeded ********** */
+
+/* ********** Navbar Started ********** */
+.nav-background{
+    background: url(../Images/Yoga-Banner.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-background .header-headings{
+    color: white;
+    /*margin-left: 40%;*/
+    margin-top: 9%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.nav-background .header-headings h1{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.nav-background .header-headings h2{
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+
+.header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+.navbar{
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: top .5s;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+/* ********** Navbar Hide And Show JavaScript ********** */
+.navbar.animate{
+    top: -71px;
+}
+.navbar.sticky{
+    top: 0;
+    z-index: 99;
+}
+/* ********** Navbar Hide And Show JavaScript ********** */
+
+.header-left a{
+    color: white!important;
+    font-size: 0.8rem!important;
+    font-weight: bold;
+    padding: 0!important;
+    margin: 0px 20px 0px 20px;
+}
+    
+.header-left a:hover, .header-left a.active{
+   border-bottom: 1px solid white;
+   border-radius: 5%;
+    /*text-decoration-line: underline;
+    text-decoration-style: 100px solid;*/
+}
+
+.header-left ul{
+   background-color: white;
+    width: 120px;
+}
+
+.header-left ul li, .header-left ul{
+    display: none;
+}
+
+.header-left:hover ul li, .header-left:hover ul{
+    display:block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header-left ul li a{
+    color: black!important;
+    text-decoration: none;
+    position:absolute;
+   /* margin: 0px 10px;
+    padding: 0!important;*/
+    margin: 0;
+    padding: 0 10px!important;
+    border-radius: 0!important;
+}
+
+.header-left ul li a:hover{
+    background-color: #5768ac;
+    width: 120px;
+    margin: 0;
+    border-bottom: 0;
+   border-radius: 0;
+   color: white!important;
+}
+
+.header-right a i{
+    color: white;
+    font-size: 15px;
+    margin: 0px!important;
+}
+
+/*
+.header-right{
+    margin: 0px -5px 0px -5px;
+}*/
+
+
+@media(max-width: 768px){
+
+    .header-joinas{
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+ 
+    .header-joinas .header-first{
+        margin-top: 0;
+    }
+    
+    .header-joinas .header-middle div p{
+        margin-top: 0px;
+    }
+    
+    .header-joinas .header-last{
+        margin-top: 0px;
+    }
+    
+    .nav-item{
+        text-align: center!important;
+    }
+
+    .nav-item a:hover, .nav-item a.active{
+        border-bottom: 0px;
+     }
+
+     .header-left ul{
+        margin-left: 220px!important;
+        margin-top: -10px!important;
+     }
+
+     .header-right{
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

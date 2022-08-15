@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+/* ********** Our Pricing Starteded ********** */
+.pricing{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background: #fffffe;
+    padding-top: 30px;
+}
+
+.pricing h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.pricing .intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+    margin-bottom: 50px;
+}
+
+.pricing .card{
+   transition: 0.4s ease;
+    height: 400px;
+    background:white!important ;
+  /*  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);*/
+    padding-bottom: 30px!important;
+}
+
+.pricing .card h1{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.pricing .card-body{
+  /*  padding: 30px 0!important;*/
+    height: auto;
+    margin-top: -10px;
+}
+
+.pricing .card-body li{
+   /* margin: 10px 0;*/
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #7f7f88;
+}
+
+.pricing .card .card-body .money{
+    font-size: 40px;
+    line-height: 1;
+    color:black; 
+    font-weight: bold;
+}
+
+.pricing .card .card-body .subline{
+    font-size: 0.6rem;
+    margin-top: -5px;
+}
+
+.pricing .card .card-body .desc{
+    margin-top: 10px;
+}
+
+.pricing .card .btn{
+    margin-top: -00px;
+}
+
+.pricing .card .btn a{
+    text-transform: capitalize;
+    background: #7f7f88;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.pricing .card:hover .btn a{
+    background: #5768ac;
+}
+
+.pricing .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.pricing .card:hover .money{
+    color: #5768ac;
+}
+
+.pricing .card .qcircle{
+    width: 60px;
+    height: 60px;
+    background: #5768ac;
+    border-top-left-radius: 0;
+    border-top-right-radius:0 ;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0;
+    margin-left: 290px;
+    position: absolute ;
+}
+
+.pricing .card .qcircle i{
+    color: white;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+ /* ********** Our Pricing Ended ********** */
+
+
+/*  ********** Make An Appointment Started **********  */
+
+.appointment{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+    padding-left:110px ;
+    padding-right:110px ;
+    padding-bottom: 30px;
+
+}
+
+.appointmentback{
+    background:#5768ac ;
+    height: 60vh;
+    width: 100%!important;
+}
+.appointment i{
+    margin-bottom: 30px;
+    font-size: x-large;
+    color: white;
+}
+
+.appointment h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+}
+
+.appointment select,.appointment input{
+    width: 48% !important;
+    float: left!important;
+    margin-left: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+.appointment textarea{
+    width: 97%!important;
+    margin-left: 10px!important;
+}
+
+.appointment select,.appointment input,.appointment textarea{
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.appointment ::placeholder{
+    color: white!important;
+}
+.appointment select, .appointment input,.appointment textarea{
+    font-size: 0.9rem!important;
+    color: white!important;
+    background-color: #7986bc!important;
+    border: #7986bc!important;
+    border-radius: 0px!important;
+}
+
+.appointment button{
+    color: #5768ac;
+    background: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    border: white!important;
+    border-radius: 0px!important;
+    text-align: center!important;
+    letter-spacing: 2px;
+    padding: 8px 20px!important;
+    font-weight: 800!important;
+    margin-top: -5px!important;
+    border-radius: 3px!important;
+}
+
+.appointment button:hover{
+    color: #5768ac;
+    background: white;
+}
+/*  ********** Make An Appointment Ended **********  */
+
+/*  ********** Our Happy Customer Started **********  */
+.happyclients{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 50px;
+}
+
+.happyclientsInfo h1{
+    font-size: 8rem;
+    color: #5768ac;
+    margin-bottom: -40px;
+}
+
+.happyclientsInfo p{
+    font-size: 1.2rem;
+}
+
+.happyclientsInfo a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.happyclientsInfo h5{
+    margin-top: 20px;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.happyclientsInfo h5 span{
+    font-size: 0.5rem;
+    color: lightslategray;
+}
+
+.happyclients .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+}
+
+.happyclients .carousel-indicators li{
+    height:10px!important;
+    width: 10px!important;
+    background-color: lightslategray!important;
+    border-radius: 50%!important;
+    margin-right: 5px!important;
+  margin-left: 5px!important;
+  border:3px solid transparent!important;
+}
+
+.happyclients .carousel-indicators .active {
+    border:2px solid lightslategray!important ;
+    background: transparent!important;
+    background-color: #5768ac!important;
+    background-size: 5px!important;
+}
+/*  ********** Our Happy Customer Ended **********  */
+
+@media(max-width: 768px){
+    .pricing .intro{
+        padding: 0px 50px;
+    }
+    .pricing .middlecard{
+        margin: 30px 0;
+    }
+
+    .appointment{
+        padding-left:20px ;
+        padding-right:20px ;
+    }
+
+    .appointmentback{
+        height: 65vh;
+    }
+
+    .appointment select,.appointment input{
+        width: 100% !important;
+        float: none!important;
+        margin-left: 0px!important;
+        margin-bottom: 0px!important;
+    }
+
+    .appointment textarea{
+        width: 100%!important;
+        margin-left: 00px!important;
+    }
+
+    .happyclients{
+        height: 80vh;
+    }
+}
+

@@ -1,0 +1,643 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+font-family: 'Poppins', sans-serif;
+}
+
+/* ********** Filter Started ********** */
+
+.filter{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    /*background-color: tomato;*/
+    width: 100%;
+    height: 50vh;
+}
+
+.filter .container{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+}
+
+/* ********** Filter Day Started ********** */
+
+.wrapper-day .title{
+font-size: 0.7rem;
+color:#a8a4a0;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.select_wrap-day{
+width: 200px;
+margin-top: 10px;
+position: relative;
+/*user-select: none;*/
+}
+
+.select_wrap-day .default_option-day{
+background: #f5f6f9;
+border: 1px solid #a8a4a0;
+border-radius: 3px;
+position: relative;
+cursor: pointer;
+height: 40px;
+font-size: 0.8rem;
+font-weight: 600;
+text-transform: capitalize;
+}
+.select_wrap-day .default_option-day li{
+padding: 8px 10px;
+}
+
+.select_wrap-day .default_option-day:before{
+content: "";
+position: absolute;
+top: 10px;
+right: 18px;
+width: 9px;
+height: 9px;
+border: 2px solid;
+border-color: transparent transparent #5768ac #5768ac;
+transform: rotate(-45deg);
+}
+
+.select_wrap-day .select_ul-day{
+position: absolute;
+top: 55px;
+left: 0;
+width: 100%;
+background: #f5f6f9;
+border: 1px solid;
+border-color: transparent #a8a4a0  #a8a4a0 #a8a4a0 ;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+display: none;
+height: auto;
+margin-top: -15px;
+font-size: 0.8rem;
+font-weight: 600;
+
+}
+.select_wrap-day .select_ul-day li{
+padding: 8px 10px;
+cursor: pointer;
+line-height: 1px;
+}
+
+.select_wrap-day .select_ul-day li:first-child:hover{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+  
+.select_wrap-day .select_ul-day li:last-child:hover{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.select_wrap-day .select_ul-day li:hover{
+    background: #5768ac;
+    color: white;
+}
+
+.select_wrap-day .select_ul-day li p{
+padding-top: 10px;
+text-transform: capitalize;
+}
+
+.select_wrap-day.active .select_ul-day{
+display: block;
+}
+
+.select_wrap-day.active .default_option-day:before{
+top: 15px;
+transform: rotate(-225deg);
+}
+/* ********** Filter Day Ended ********** */
+
+/* ********** Filter Level Started ********** */
+
+.wrapper-level .title{
+font-size: 0.7rem;
+color:#a8a4a0;
+text-transform: capitalize;
+font-weight: bold;
+}
+
+.select_wrap-level{
+width: 200px;
+margin-top: 10px;
+position: relative;
+/*user-select: none;*/
+}
+
+.select_wrap-level .default_option-level{
+background: #f5f6f9;
+border: 1px solid #a8a4a0;
+border-radius: 3px;
+position: relative;
+cursor: pointer;
+height: 40px;
+font-size: 0.8rem;
+font-weight: 600;
+text-transform: capitalize;
+}
+.select_wrap-level .default_option-level li{
+padding: 8px 10px;
+}
+
+.select_wrap-level .default_option-level:before{
+content: "";
+position: absolute;
+top: 10px;
+right: 18px;
+width: 9px;
+height: 9px;
+border: 2px solid;
+border-color: transparent transparent #5768ac #5768ac;
+transform: rotate(-45deg);
+}
+
+.select_wrap-level .select_ul-level{
+position: absolute;
+top: 55px;
+left: 0;
+width: 100%;
+background: #f5f6f9;
+border: 1px solid;
+border-color: transparent #a8a4a0  #a8a4a0 #a8a4a0 ;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+display: none;
+height: auto;
+margin-top: -15px;
+font-size: 0.8rem;
+font-weight: 600;
+
+}
+.select_wrap-level .select_ul-level li{
+padding: 8px 10px;
+cursor: pointer;
+line-height: 1px;
+}
+
+.select_wrap-level .select_ul-level li:first-child:hover{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+  
+.select_wrap-level .select_ul-level li:last-child:hover{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.select_wrap-level .select_ul-level li:hover{
+    background: #5768ac;
+    color: white;
+}
+
+.select_wrap-level .select_ul-level li p{
+padding-top: 10px;
+text-transform: capitalize;
+}
+
+.select_wrap-level.active .select_ul-level{
+display: block;
+}
+
+.select_wrap-level.active .default_option-level:before{
+top: 15px;
+transform: rotate(-225deg);
+}
+
+/* ********** Filter Level Ended ********** */
+
+/* ********** Filter Teacher Started ********** */
+
+.wrapper-teacher .title{
+    font-size: 0.7rem;
+    color:#a8a4a0;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    
+    .select_wrap-teacher{
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    /*user-select: none;*/
+    }
+    
+    .select_wrap-teacher .default_option-teacher{
+    background: #f5f6f9;
+    border: 1px solid #a8a4a0;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    }
+    .select_wrap-teacher .default_option-teacher li{
+    padding: 8px 10px;
+    }
+    
+    .select_wrap-teacher .default_option-teacher:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid;
+    border-color: transparent transparent #5768ac #5768ac;
+    transform: rotate(-45deg);
+    }
+    
+    .select_wrap-teacher .select_ul-teacher{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: #f5f6f9;
+    border: 1px solid;
+    border-color: transparent #a8a4a0  #a8a4a0 #a8a4a0 ;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: none;
+    height: auto;
+    margin-top: -15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    
+    }
+    .select_wrap-teacher .select_ul-teacher li{
+    padding: 8px 10px;
+    cursor: pointer;
+    line-height: 1px;
+    }
+    
+    .select_wrap-teacher .select_ul-teacher li:first-child:hover{
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+      
+    .select_wrap-teacher .select_ul-teacher li:last-child:hover{
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    
+    .select_wrap-teacher .select_ul-teacher li:hover{
+        background: #5768ac;
+        color: white;
+    }
+    
+    .select_wrap-teacher .select_ul-teacher li p{
+    padding-top: 10px;
+    text-transform: capitalize;
+    }
+    
+    .select_wrap-teacher.active .select_ul-teacher{
+    display: block;
+    }
+    
+    .select_wrap-teacher.active .default_option-teacher:before{
+    top: 15px;
+    transform: rotate(-225deg);
+    }
+
+/* ********** Filter Teacher Ended ********** */
+
+/* ********** Filter Style Started ********** */
+
+.wrapper-style .title{
+    font-size: 0.7rem;
+    color:#a8a4a0;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    
+    .select_wrap-style{
+    width: 200px;
+    margin-top: 10px;
+    position: relative;
+    /*user-select: none;*/
+    }
+    
+    .select_wrap-style .default_option-style{
+    background: #f5f6f9;
+    border: 1px solid #a8a4a0;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    }
+    .select_wrap-style .default_option-style li{
+    padding: 8px 10px;
+    }
+    
+    .select_wrap-style .default_option-style:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid;
+    border-color: transparent transparent #5768ac #5768ac;
+    transform: rotate(-45deg);
+    }
+    
+    .select_wrap-style .select_ul-style{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: #f5f6f9;
+    border: 1px solid;
+    border-color: transparent #a8a4a0  #a8a4a0 #a8a4a0 ;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: none;
+    height: auto;
+    margin-top: -15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    
+    }
+    .select_wrap-style .select_ul-style li{
+    padding: 8px 10px;
+    cursor: pointer;
+    line-height: 1px;
+    }
+    
+    .select_wrap-style .select_ul-style li:first-child:hover{
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+      
+    .select_wrap-style .select_ul-style li:last-child:hover{
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    
+    .select_wrap-style .select_ul-style li:hover{
+        background: #5768ac;
+        color: white;
+    }
+    
+    .select_wrap-style .select_ul-style li p{
+    padding-top: 10px;
+    text-transform: capitalize;
+    }
+    
+    .select_wrap-style.active .select_ul-style{
+    display: block;
+    }
+    
+    .select_wrap-style.active .default_option-style:before{
+    top: 15px;
+    transform: rotate(-225deg);
+    }
+
+/* ********** Filter Style Ended ********** */
+
+/* ********** Search Buton Started ********** */
+
+.filter form button{
+    background: #5768ac;
+    color: white;
+    text-decoration: none;
+    padding: 8px 13px;
+    font-size: 1rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    
+}
+
+/* ********** Search Buton Ended ********** */
+
+
+
+
+/* ********** Filter Ended ********** */
+
+
+/*  ********** Up Comming Course started **********  */
+.course{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    background-color: snow;
+}
+
+.course-card{
+    text-align: center;
+    height: 425px;
+    margin: 0px 10px;
+    background: white;
+    margin-bottom: 50px;
+}
+
+.imgdiv{
+    position: relative;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 30vh;
+}
+
+.coursedate{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc{
+    padding: 20px;
+    text-align: left;
+}
+
+.coursc-desc h1{
+    font-size: 0.8rem;
+    color:lightslategray;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.coursc-desc h2{
+    font-size: 1.3em!important;
+    line-height: 30px!important;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.coursc-desc p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc p span{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    color: lightslategrey;
+}
+
+.coursc-desc a{
+    text-transform: uppercase;
+    background: white;
+    color: #5768ac;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid rgb(221, 217, 217);
+    padding: 5px 10px;
+}
+
+.coursc-desc a:hover{
+    text-decoration: none;
+    color: #5768ac;
+}
+
+/* ********** Pagination Started ********** */
+
+.course nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course .page-item{
+    border-radius: 50%!important;
+    margin-right: 10px!important;
+    background-color: #f5f6f9!important;
+    border: 1px solid #a8a4a0!important;
+    box-shadow: none!important;
+} 
+
+.course .page-link{
+    border-radius: 50%!important;
+   background: transparent!important;
+   color: #a8a4a0!important;
+   border: transparent!important;
+   box-shadow: none!important;
+   
+  
+}
+
+.course .page-link:hover, .course .active{
+   color: #f5f6f9!important;
+   background: #5768ac!important;
+  
+}
+
+.course nav ul li:first-child .active, .course nav ul li:last-child .active{
+    background-color: #f5f6f9!important;
+    border: 1px solid #a8a4a0!important;
+}
+
+
+/* ********** Pagination Ended ********** */
+
+/* ********** Top Classes Started ********** */
+
+
+.topClasses{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    background-color: snow;
+}
+
+.topClasses h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.topClasses .intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.topClasses .coursc-desc h1{
+    font-size: 0.8rem;
+    color:lightslategray;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* ********** Top Classes Endted ********** */
+
+/*  ********** Up Comming Course Ended **********  */
+
+
+@media(max-width: 768px){
+
+    .filter{
+        height: 75vh;
+    }
+
+    .select_wrap-day{
+        width: 125px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .select_wrap-level{
+        width: 125px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .select_wrap-teacher{
+        width: 125px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .select_wrap-style{
+        width: 125px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .filter form button{
+        
+        margin-left: 50px;
+    }
+
+    .topClasses .intro{
+        padding: 0px 50px;
+    }
+        
+    
+}

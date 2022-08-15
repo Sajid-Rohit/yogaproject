@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* ********** Adress Started ********** */
+.location{
+    margin-bottom: 50px;
+}
+
+.location div i{
+    color: #5768ac;
+    font-size: 20px;
+}
+
+.location div h1{
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.location div h2{
+    font-size: 0.6rem;
+    margin-top: 3px;
+    color: lightslategray;
+}
+
+/* ********** Adress Ended ********** */
+
+/* ********** Leave a comment started ********** */
+
+.comment{
+    margin-bottom: 50px;
+}
+
+.comment form input, .comment form textarea{
+    box-shadow:none!important;
+    border: none!important;
+    font-size: 0.8rem!important;
+    border:0.22px solid #ebebea!important;   
+}
+
+.comment button{
+    background-color: #5768ac;
+    color: white;
+    outline: none!important;
+    border: none!important;
+    border-radius: 0!important;
+    font-size: 0.7rem!important;
+    padding: 8px 35px;
+}
+/* ********** Leave a comment Ended ********** */

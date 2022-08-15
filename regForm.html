@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+
+<!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">-->
+
+<link rel="stylesheet" href="Css/regForm.css">
+
+    <title>Registration</title>
+  </head>
+<body>
+
+  <section class="regform" id="">
+            <div class="container text-center">
+              <h2 class="text-center text-capitalize">Registration</h2>
+            </div>
+            
+            <div class="container ">
+                <form id="reg-form" action=" " method="">
+                <div class="row form-body">
+                   
+
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="forminput">
+                                    <input type="text" name="firstName" class="" id="fnameid" required autocomplete="off" minlength="3" maxlength="10">
+                                    <h6 id="fnamecheck"></h6>
+                                    <label for="fnameid">First Name</label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="forminput">
+                                    <input type="text" name="lastName" class="" id="lnameid" required autocomplete="off" minlength="3" maxlength="10">
+                                    <h6 id="lnamecheck"></h6>
+                                    <label for="lnameid">Last Name</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="row">
+
+                            <div class="col-lg-4">
+                                <div class="formdate">
+                                    <input type="date" name="dob" class="" id="dateid" required>
+                                    <h6 id="datecheck"></h6>
+                                    <label for="dateid">D.O.B</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="formgender">
+                                    <label for="" class="head">Gender</label>
+                                    <div class="form-check-inline gen">
+                                        <input class="" type="radio" name="gender" id="maleid" value="male" checked>
+                                        <label class="" for="maleid">Male</label>
+                                      </div>
+                                      <div class="form-check-inline gen">
+                                        <input class="" type="radio" name="gender" id="femaleid" value="female">
+                                        <label class="" for="femaleid">Female</label>
+                                      </div>
+                                      <div class="form-check-inline gen">
+                                        <input class="" type="radio" name="gender" id="othersid" value="others">
+                                        <label class="" for="othersid">Others</label>
+                                      </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <!-- <div class="formimg">
+                                     <input type="file" name="profilePicture" class="" id="profilepicid" accept="image/*" required>
+                                     <h6 id="profilepiccheck"></h6>
+                                     <label for="profilepicid"><i class="material-icons">add_photo_alternate</i>&nbsp;Profile Picture</label>
+                                 </div>-->
+                                 <div class="formimg">
+                                     <input type="file" name="profilePicture" class="" id="profilepicid" accept="image/*">
+                                     <h6 id="profilepiccheck"></h6>
+                                     <label for="profilepicid">Profile Picture</label>
+                                 </div>
+                             </div>
+                        </div>
+                        
+                    </div>
+
+
+
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="forminput">
+                                    <input type="text" name="mobile" class="" id="mobileid" required autocomplete="off" minlength="10" maxlength="10" >
+                                    <h6 id="mobilecheck"></h6>
+                                    <label for="mobileid">Mobile</label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="forminput">
+                                    <input type="email" name="eMail" class="" id="emailid" required autocomplete="off" >
+                                    <h6 id="emailcheck"></h6>
+                                    <label for="emailid">Email</label>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-10 offset-lg-1">
+
+                        <div class="row">
+
+                            <div class="col-lg-10">
+                                <div class="forminput">
+                                    <input type="text" name="address" class="" id="adressid" required autocomplete="off" >
+                                    <h6 id="adresscheck"></h6>
+                                    <label for="adressid">Address</label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="forminput">
+                                    <input type="text" name="zip" class="" id="zipid" required maxlength="6" minlength="6" autocomplete="off" >
+                                    <h6 id="zipcheck"></h6>
+                                    <label for="zipid">Zipcode</label>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    
+                    </div>
+
+
+
+                   <div class="col-lg-10 offset-lg-1">
+
+                        <div class="row">
+
+                            <div class="col-lg-3">
+                                <div class="formselect">
+                                    <select id="joinasid" class="form-control" name="joinAs">
+                                        <option value="" selected hidden>Join As</option>
+                                        <option value="trainee">Trainee</option>
+                                        <option value="trainer">Trainer</option>
+                                      </select>
+                                    <h6 id="joinascheck"></h6>
+                                    <label for="joinasid"></label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="forminput">
+                                    <input type="text" name="tType" class="ttypeclass" id="ttypeid"  autocomplete="off" >
+                                    <h6 id="ttypecheck"></h6>
+                                    <label for="ttypeid" class="ttypeclass">Training Type</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="forminput">
+                                    <input type="text" name="yOe" class="yoeclass" id="yofid" minlength="1" maxlength="2"  autocomplete="off">
+                                    <h6 id="yoecheck"></h6>
+                                    <label for="yofid" class="yoeclass">Year Of Exp</label>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="formcert">
+                                    <input type="file" name="tc" class="tcertclass" id="tcertid" accept="image/*">
+                                    <h6 id="tcertidcheck"></h6>
+                                    <label for="tcertid" class="tcertclass">Training Certificate</label>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    
+                    </div>
+
+                   
+
+                    <div class="col-lg-10 offset-lg-1">
+                       <!-- <button type="submit" class="btn btn-primary">Login</button>-->
+                        <input type="submit" name="" id="submitbtn" value="submit" class=" btn-primary">
+                       <!-- <input type="submit" name="submit" value="submit">-->
+                    </div>
+
+                
+                </div>
+            </form> 
+            </div>
+        </section>
+    
+
+
+<!-- jQuery library -->
+<script src="js/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+
+<!-- Popper JS -->
+<script src="js/popper.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+
+
+
+<!-- jQuery library -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+<!-- Popper JS -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
+
+<!-- Latest compiled JavaScript -->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+
+<script src="js/regForm.js"></script>
+
+</body>
+</html>

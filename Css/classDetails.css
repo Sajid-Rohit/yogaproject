@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    }
+/* ********** main Section Started  ********** */    
+.mainsection{
+    width: 100%;
+    height: auto;
+    background:#fffffe;
+    margin-bottom: 50px;
+    padding: 30px 0;
+}
+
+.mainsection .maincont{
+    background: transparent;
+    width: 100%;
+    height: auto;
+}
+/* ********** classinfo Started ********** */ 
+.mainsection .maincont .classinfo h1{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.mainsection .maincont .classinfo .innerspan span, .mainsection .maincont .classinfo .loc,.mainsection .maincont .classinfo .trainer{
+    color: #aaaab8;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.mainsection .maincont .classinfo .trainer{
+    margin-bottom: 20px;
+}
+
+
+
+.mainsection .maincont .classinfo a{
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid #5768ac;
+    padding: 5px 10px;
+}
+
+
+/* ********** classinfo Ended ********** */    
+
+/* ********** About Instructor Start ********** */    
+.mainsection .maincont .aboutinst h1{
+    font-size: 1rem;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .aboutinst img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .aboutinst h2{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: #5768ac;
+    font-weight: bold;
+    margin-left: -20px!important;
+}
+
+.mainsection .maincont .aboutinst h3{
+    font-size: 0.6rem;
+    color: #aaaab8;
+    margin-left: -20px!important;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.mainsection .maincont .aboutinst p{
+    font-size: 0.6rem;
+    color: #aaaab8;
+    margin-left: -20px!important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mainsection .maincont .aboutinst span{
+    font-size: 0.8rem;
+    color: #aaaab8;
+    margin-left: -20px!important;
+    padding: 0px 15px;
+}
+
+.mainsection .maincont .aboutinst .fspan{
+    padding-left: 0px;
+}
+
+.mainsection .maincont .aboutinst span a{
+    color: #aaaab8;
+}
+
+.mainsection .maincont .aboutinst span a:hover{
+    color: #5768ac;
+}
+
+/* ********** About Instructor Ended ********** */    
+
+/* ********** Comments Start ********** */  
+.mainsection .maincont .comment h1{
+    font-size: 1rem;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mainsection .maincont .comment img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}  
+/* ********** Ratings Start ********** */  
+
+.mainsection .maincont .comment .stars-outer {
+position: relative;
+display: inline-block;
+font-size: 0.5rem;
+}
+
+.mainsection .maincont .comment .stars-inner {
+position: absolute;
+top: 0;
+left: 0;
+white-space: nowrap;
+overflow: hidden;
+width: 0;
+}
+
+.mainsection .maincont .comment .stars-outer::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #ccc;
+}
+
+.mainsection .maincont .comment .stars-inner::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #f8ce0b;
+}
+/* ********** Ratings Ended ********** */  
+
+.mainsection .maincont .comment h3{
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    color: #aaaab8;
+    margin-top: 20px;
+}
+
+.mainsection .maincont .comment h4{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: #5768ac;
+    font-weight: bold;
+}
+
+.mainsection .maincont .comment h5{
+    font-size: 0.7rem;
+    color: #aaaab8;
+    line-height: 20px;
+}
+/* ********** Comments Ended ********** */
+/* ********** Right Panel Started ********** */
+.mainsection .maincont .startbanner img{
+    width: 100%;
+    height: 400px;
+}
+
+.mainsection .maincont .startbanner .coursetype{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.mainsection .maincont .timing{
+    margin-top: 20px;
+}
+
+.mainsection .maincont .timing .innerspan{
+    color: #aaaab8;
+    font-size: 0.9rem;
+}
+
+.mainsection .maincont .desc{
+    margin-top: 10px;
+}
+
+.mainsection .maincont .desc h1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+}
+
+.mainsection .maincont .desc p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #aaaab8;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .middlebanner{
+    width: 100%;
+    height: 85vh;
+}
+
+.mainsection .maincont .middlebanner .bleft img{
+    height: 85vh;
+    width: 100%;
+}
+
+.mainsection .maincont .middlebanner .bmiddle img{
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.mainsection .maincont .middlebanner .bright img{
+    height: 40vh;
+    width: 100%;
+}
+
+.mainsection .maincont .tips{
+    margin-top: 30px;
+}
+
+.mainsection .maincont .tips p{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mainsection .maincont .tips h5{
+    font-size: 0.8rem;
+    color: rgb(48, 46, 46);
+}
+
+.mainsection .maincont .tips h5 i{
+    color: #5768ac;
+}
+
+
+
+/* ********** Right Panel Ended ********** */    
+/* ********** main Section Ended  ********** */  
+
+/* ********** Leave a comment started ********** */
+
+.leavecomment{
+    margin-bottom: 50px;
+    background: #f5f6f9;
+    padding: 50px 0px;
+}
+
+.leavecomment form input, .leavecomment form textarea{
+    box-shadow:none!important;
+    border: none!important;
+    font-size: 0.8rem!important;
+    border:0.22px solid #ebebea!important;   
+}
+
+.leavecomment button{
+    background-color: #5768ac;
+    color: white;
+    outline: none!important;
+    border: none!important;
+    border-radius: 0!important;
+    font-size: 0.7rem!important;
+    padding: 8px 35px;
+}
+
+.leavecomment .yourratings{
+ font-size: 1rem;
+ font-weight: bold;
+ color: black;
+}
+
+.leavecomment .stars{
+    margin-top: -29px;
+    margin-left: 110px;
+}
+
+.star{
+   list-style: none;
+    color: #9ca0a4;
+   display: inline; 
+}
+
+/*Javascript Classes*/
+.click{
+    color: orange;
+}
+
+.hover{
+    color: orange;
+}
+/* ********** Leave a comment Ended ********** */
+
+
+/*  ********** Up Comming Course started **********  */
+.course{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+}
+
+.course h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.course-card{
+    text-align: center;
+    height: 425px;
+    margin: 0px 10px;
+    background: white;
+}
+
+.imgdiv{
+    position: relative;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 30vh;
+}
+
+.coursedate{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc{
+    padding: 20px;
+    text-align: left;
+}
+
+.coursc-desc h1{
+    font-size: 0.8rem;
+    color:lightslategray;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.coursc-desc h2{
+    font-size: 1.3em;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.coursc-desc p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc p span{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    color: lightslategrey;
+}
+
+.coursc-desc a{
+    text-transform: uppercase;
+    background: white;
+    color: #5768ac;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid rgb(221, 217, 217);
+    padding: 5px 10px;
+}
+
+.coursc-desc a:hover{
+    text-decoration: none;
+    color: #5768ac;
+}
+
+/*  ********** Up Comming Course Ended **********  */
+
+@media(max-width: 768px){
+    .mainsection .maincont .category ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro{
+        padding: 0px 50px;
+    }
+}

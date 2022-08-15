@@ -1,0 +1,174 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.regform{
+width: 100%;
+padding: 30px;
+background: url(../Images/back.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.regform h2{
+margin: 0 0 10px;
+padding: 0;
+color: rgb(110, 110, 199);
+text-align: center;
+font-weight: bold;
+}
+
+.form-body{
+width: 100%;
+padding: 40px;
+background: rgba(0, 0, 0, 0.8);
+box-sizing: border-box;
+box-shadow: 0 15px 25px rgba(0,0,0, 0.5);
+border-radius: 10px;
+}
+
+.form-body h6{
+    font-size: 0.6rem;
+    color: red;
+    margin-top: -20px!important;
+    padding: 0!important;
+    text-transform: capitalize;
+}
+
+.form-body .forminput{
+position: relative;
+}
+
+.form-body .forminput input,.form-body .formdate input{
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color: white;
+letter-spacing: 1px;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+background: transparent;
+}
+
+.form-body .forminput label{
+position:absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 1em;
+color: white;
+pointer-events: none;
+transition: .5s;
+}
+
+.form-body .forminput input:focus ~ label,
+.form-body .forminput input:valid ~ label{
+top: -10px;
+left: 0;
+color:rgb(110, 110, 199);
+font-size: 12px;
+}
+
+.form-body .formimg input[type="file"],.form-body .formcert input[type="file"]{
+    color: white;
+   /* background-color: transparent;*/
+    border: none;
+    outline: none;
+   /* border-radius: 1000px;*/
+}
+.form-body .formimg, .form-body .formcert{
+    margin-top: 20px;
+    
+}
+
+.form-body .formimg h6, .form-body .formselect h6, .form-body .formcert h6{
+    font-size: 0.6rem;
+    color: red;
+    margin-top: 10px!important;
+    padding: 0!important;
+    text-transform: capitalize;
+}
+
+/*.form-body .formimg input[type="file"]{
+    display: none;
+}*/
+/*
+.form-body .formimg label{
+    color:white ;
+    height: 30px;
+    width: 130px;
+    background-color: #03e9f4;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: -150px;
+    right: 0;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}*//*
+.form-body input[type="submit"]{
+background: transparent;
+border: none;
+outline: none;
+color: rgb(110, 110, 199);
+background:black ;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+}*/
+
+.form-body .formdate label, .form-body .formgender .head, .form-body .formimg label, .form-body .formcert label{
+   position:absolute;
+    top: -20px;
+    left: 15px;
+    padding: 10px 0;
+    font-size: 1em;
+    color:white;
+    pointer-events: none;
+}
+
+    .form-body .formgender .gen{
+        margin-top: 20px;
+        padding: 0 5px;
+    }
+
+    .form-body .formgender .gen label{
+        color: white!important;
+        margin-top: 10px;
+    }
+
+    .form-body .formselect select{
+        margin-top: 10px;
+        color: white;
+        background: transparent;
+        font-weight: 400;
+       /* border:none;
+        border-bottom: 1px solid white;*/
+        border-radius: 0;
+    }
+
+    .form-body .formselect select:focus{
+        outline: white!important;
+        box-shadow: none!important;
+    }
+
+    .form-body .formselect select option{
+        background-color: transparent!important;
+        color: black;
+    }
+
+
+
+
+

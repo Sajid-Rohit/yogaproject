@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+        .faq{
+            width: 100%;
+            height: auto;
+            background: #fffffe;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+            padding: 20px 0px;
+        }
+        .faq .container{
+            width: 100%;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0 100px;
+
+        }
+        .faq .accordion-item{
+            background: #fffffe;
+            margin-bottom: 1rem;
+           border-bottom: 1px solid #abadaf;
+        }
+
+        .faq .accordion-link{
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #abadaf;
+            text-decoration: none;
+            background-color: #fffffe;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .faq .accordion-link:hover{
+            text-decoration: none;
+            color: #abadaf;
+        }
+        .faq .accordion-link i{
+            color: black;
+            padding: 0.5rem;
+        }
+        .faq .accordion-link .fa-minus{
+            display: none;
+        }
+        .faq .answer{
+           max-height: 0;
+            overflow: hidden;
+            position: relative;
+            background-color: #fffffe;
+            transition: max-height 650ms;
+        }
+
+        .faq .answer p{
+            font-size: 0.7rem;
+            color: #abadaf;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-right: 1rem;
+        }
+
+        .faq:target .accordion-item{
+            padding: 0;
+        }
+
+        .faq .accordion-item:target .accordion-link{
+            font-size: 1.3rem;
+            color: black;
+            text-decoration: underline;
+        }
+        .faq .accordion-item:target .accordion-link i{
+            text-decoration: underline;
+            text-decoration-color: #fffffe;
+        }
+
+        .faq .accordion-item:target .answer{
+            max-height: 20rem;
+        }
+
+        .faq .accordion-item:target .accordion-link .fa-plus{
+            display: none;
+        }
+
+        .faq .accordion-item:target .accordion-link .fa-minus{
+            display: block;
+        }
+
+@media(max-width: 768px){
+
+    .faq .answer p{
+        text-align: justify;
+    }
+
+    .faq .accordion-item:target .accordion-link{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    .faq .accordion-item:target .accordion-link i{
+        text-decoration: none;
+    }
+
+}
+
+       

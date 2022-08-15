@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    }
+/* ********** main Section Started  ********** */    
+.mainsection{
+    width: 100%;
+    height: auto;
+    background:#fffffe;
+    margin-bottom: 50px;
+    padding: 30px 0;
+}
+
+.mainsection .maincont{
+    background: transparent;
+    width: 100%;
+    height: auto;
+}
+/* ********** Search Bar Started ********** */    
+
+.mainsection .maincont .category input{
+    border: 1px solid ;
+    border-color: #aaaab8 transparent #aaaab8 #aaaab8 ;
+    height: 40px;
+    width: 90%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   padding-left: 10px; 
+}
+
+input::placeholder{
+    color: #aaaab8;
+}
+
+.mainsection .maincont .category button{
+    text-decoration: none;
+    color: #aaaab8;
+    background: none;
+    outline: none;
+    border: none;
+    float: right;
+    padding-right:20px;
+    border: 1px solid;
+    border-color: #aaaab8 #aaaab8 #aaaab8 transparent ;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 10%;
+    height: 40px;
+    
+}
+
+.mainsection .maincont .category button:hover{
+    color: #5768ac;
+}
+/* ********** Search Bar Ended ********** */    
+/* ********** Category Started ********** */ 
+.mainsection .maincont .category h1{
+    font-size: 1rem;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.mainsection .maincont .category ul li{
+    font-size: 0.9rem;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.mainsection .maincont .category ul li a{
+    text-decoration: none;
+    color: #aaaab8;
+}
+
+.mainsection .maincont .category ul li a:hover{
+    color: #5768ac;
+}
+
+/* ********** Category Ended ********** */    
+
+/* ********** Recent News Start ********** */    
+.mainsection .maincont .recentnews h1{
+    font-size: 1rem;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .recentnews img{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .recentnews h2{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 400;
+    margin-left: -20px!important;
+}
+
+.mainsection .maincont .recentnews h3{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #aaaab8;
+    margin-left: -20px!important;
+    margin-bottom: 20px;
+}
+
+/* ********** Recent News Ended ********** */    
+
+/* ********** Search by Tag Started ********** */   
+.mainsection .maincont .searchbytag h1{
+    font-size: 1rem;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mainsection .maincont .searchbytag ul li{
+    font-size: 0.7rem;
+    display: inline;
+    margin: 18px 8px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.mainsection .maincont .searchbytag ul li a{
+    text-decoration: none;
+    background: #f5f5f4;
+    color: #000;
+    padding: 5px 10px;
+    
+}
+/* ********** Search by Tag Ended ********** */    
+/* ********** Comments Start ********** */  
+.mainsection .maincont .comment img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}  
+/* ********** Ratings Start ********** */  
+
+.mainsection .maincont .comment .stars-outer {
+position: relative;
+display: inline-block;
+font-size: 0.5rem;
+}
+
+.mainsection .maincont .comment .stars-inner {
+position: absolute;
+top: 0;
+left: 0;
+white-space: nowrap;
+overflow: hidden;
+width: 0;
+}
+
+.mainsection .maincont .comment .stars-outer::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #ccc;
+}
+
+.mainsection .maincont .comment .stars-inner::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #f8ce0b;
+}
+/* ********** Ratings Ended ********** */  
+
+.mainsection .maincont .comment h3{
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    color: #aaaab8;
+    margin-top: 20px;
+}
+
+.mainsection .maincont .comment h4{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    color: #5768ac;
+    font-weight: bold;
+}
+
+.mainsection .maincont .comment h5{
+    font-size: 0.7rem;
+    color: #aaaab8;
+    line-height: 20px;
+}
+/* ********** Comments Ended ********** */
+/* ********** Right Panel Started ********** */
+.mainsection .maincont .startbanner img{
+    width: 100%;
+    height: 400px;
+}
+
+.mainsection .maincont .startbanner .coursetype{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.mainsection .maincont .para p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #aaaab8;
+}
+
+.mainsection .maincont .beforepara p{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: black;
+    position: relative;
+    padding-left: 20px;
+}
+
+.mainsection .maincont .beforepara p::before{
+    content: "";
+    position: absolute;
+    width: .2rem;
+    height: 100%;
+    background-color: #5768ac;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.mainsection .maincont .middlebanner img{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+
+.mainsection .maincont .middledesc h1{
+    margin-top: 30px;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.mainsection .maincont .middledesc p{
+    color: #aaaab8;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.mainsection .maincont .social .socialleft div{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.mainsection .maincont .social .socialleft div span{
+    color: #aaaab8;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.mainsection .maincont .social .socialright{
+    text-align: right;
+}
+
+.mainsection .maincont .social .socialright span{
+    color: #aaaab8;
+    padding: 0 10px;
+}
+
+.mainsection .maincont .social .socialright span a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.mainsection .maincont .social .socialright span a:hover{
+    color: #5768ac;
+    text-decoration: none;
+}
+
+.mainsection .maincont .response{
+    background: #f5f6f9;
+    margin-top: 20px;
+    width: 100%;
+    padding:10px;
+    height: 100px;
+    margin-left: 2px;
+}
+
+.mainsection .maincont .response .responseleft img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.mainsection .maincont .response .responseright{
+    margin-left: -40px;
+}
+
+.mainsection .maincont .response .responseright h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5768ac;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.mainsection .maincont .response .responseright p{
+    font-size: 0.75rem;
+    color: #aaaab8;
+    line-height: 1.2rem;
+    
+}
+.mainsection .maincont .pagenav{
+    margin-top: 40px;
+}
+
+.mainsection .maincont .pagenav .pagenavleft div:first-child{
+    color: #aaaab8 ;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.mainsection .maincont .pagenav .pagenavleft div:first-child span{
+    color: black ;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+.mainsection .maincont .pagenav .pagenavleft div:last-child{
+    color: #aaaab8 ;
+    font-size: 0.7rem;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.mainsection .maincont .pagenav .pagenavright{
+    text-align: right;
+}
+
+.mainsection .maincont .pagenav .pagenavright div:first-child{
+    color: #aaaab8 ;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.mainsection .maincont .pagenav .pagenavright div:first-child span{
+    color: black ;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 20px;
+}
+
+.mainsection .maincont .pagenav .pagenavright div:last-child{
+    color: #aaaab8 ;
+    font-size: 0.7rem;
+    margin-right: 30px;
+    margin-top: 5px;
+    
+}
+/* ********** Right Panel Ended ********** */    
+/* ********** main Section Ended  ********** */  
+
+/* ********** Leave a comment started ********** */
+
+.leavecomment{
+    margin-bottom: 50px;
+    background: #f5f6f9;
+    padding: 50px 0px;
+}
+
+.leavecomment form input, .leavecomment form textarea{
+    box-shadow:none!important;
+    border: none!important;
+    font-size: 0.8rem!important;
+    border:0.22px solid #ebebea!important;   
+}
+
+.leavecomment button{
+    background-color: #5768ac;
+    color: white;
+    outline: none!important;
+    border: none!important;
+    border-radius: 0!important;
+    font-size: 0.7rem!important;
+    padding: 8px 35px;
+}
+
+.leavecomment .yourratings{
+ font-size: 1rem;
+ font-weight: bold;
+ color: black;
+}
+
+.leavecomment .stars{
+    margin-top: -29px;
+    margin-left: 110px;
+}
+
+.star{
+   list-style: none;
+    color: #9ca0a4;
+   display: inline; 
+}
+
+/*Javascript Classes*/
+.click{
+    color: orange;
+}
+
+.hover{
+    color: orange;
+}
+/* ********** Leave a comment Ended ********** */
+
+@media(max-width: 768px){
+    .mainsection .maincont .category ul li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainsection .maincont .social .socialleft div,.mainsection .maincont .social .socialleft div span{
+        font-size: 0.5rem;
+    }
+
+    .mainsection .maincont .social .socialright span a{
+        font-size: 0.8rem;
+    }
+    
+
+    .mainsection .maincont .response{
+        height: auto;
+    }
+
+    .mainsection .maincont .response{
+        padding: 0;
+    }
+
+    .mainsection .maincont .response .responseright{
+        margin-left: 0px;
+    }
+    .mainsection .maincont .pagenav .pagenavleft div:first-child span, .mainsection .maincont .pagenav .pagenavright div:first-child span{
+        font-size: 0.6rem;
+    }
+
+    .mainsection .maincont .pagenav .pagenavleft div:last-child, .mainsection .maincont .pagenav .pagenavright div:last-child{
+        font-size: 0.5rem;
+    }
+
+}

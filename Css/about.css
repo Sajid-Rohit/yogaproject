@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ********** Enjoy All Aspect Of Yoga started ********** */
+
+.aspect{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    background: snow;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+}
+
+.box{
+   /* padding: 1px 20px;*/
+    background: white;
+    text-align: center;
+    /*border: 1px solid transparent;*/
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+    z-index: -1;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+
+.box h6{
+    font-size: 0.7rem;
+    color:black;
+    margin-top: 10px;
+}
+
+
+.box p{
+    font-size: 0.6rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: lightslategray;
+    text-align: center;
+    height: 150px;
+   /* margin-bottom: 50px;*/
+}
+
+.box:hover .box a:after{
+    background: white!important;
+}
+/*
+.backimg{
+    
+    background: rgb(228, 220, 220);
+    height: 100px;
+    width: 100px;
+   /*border-radius: 30% 70% 74% 26% / 40% 30% 70% 60% ;*/
+   /*border-radius: 32% 68% 68% 32% / 40% 37% 63% 60% ;*/
+   /*border-radius: 50% 49% 83% 17% / 49% 48% 52% 50%;*/
+    /*border-radius: 50%;
+   /*border-radius: 50% 49% 62% 18% / 49% 48% 52% 50% ;*/
+   /*margin-left: 20px;
+   margin-top: 20px;
+}
+*/
+
+.box a{
+    position: relative;  
+}
+
+.box a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/*  ********** Enjoy All Aspect Of Yoga Ended **********  */
+/*  ********** What To Do Started **********  */
+
+.whattodo{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    background: snow;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+
+}
+
+.whattodoarea{
+    margin: 40px 0;
+}
+
+.whattodoarea img{
+    width: 100%;
+    height: 70vh;
+}
+
+.whattodologo{
+    font-size: xx-large;
+    color: #5768ac;
+}
+.whattodo h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+    word-spacing: 2px;
+}
+
+.whattododesc p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: lightslategray;
+}
+
+/*  ********** Skills Started **********  */
+
+/*
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+  }
+  */
+  .skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 8px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 8px;
+    background-color: #5768ac;
+    border-radius: 8px;
+    width: 0;
+    transition: 3s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 10px;
+    background-color: #5768ac;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    z-index: 1;
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #5768ac;
+    top: -15px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+
+  /*  ********** Skills Ended **********  */
+
+/*  ********** What To Do Ended **********  */
+
+/* ********** Meet Our Team Started ********** */
+.meetteam{
+    width: 100%;
+    height: 90vh;
+    background: #f5f6f9;
+    padding: 30px 0 ;
+    margin-bottom: 50px;
+}
+
+.meetteam .container span i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: #5768ac;
+
+}
+
+.meetteam .container .heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.meetteam .container .intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meetteam .mainrow{
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.meetteam .backrow{
+    width: 100%;
+    background: #fffffe;
+    height: 250px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 0 20px;
+    margin: 0;
+  
+}
+
+.meetteam .backrow h1{
+    text-transform: capitalize;
+    color: #5768ac;
+    font-size: 1.3rem;
+    margin-top: 75px;
+}
+
+.meetteam .backrow h2{
+    font-size: 0.8rem;
+    color: lightslategray;
+}
+
+.meetteam .backrow p{
+    font-size: 0.7rem;
+    color: lightslategray;
+}
+
+.meetteam .backrow .smedia{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.meetteam .backrow .smedia span a  {
+    text-decoration: none;   
+}
+
+.meetteam .backrow .smedia span a i {
+    font-size: 1rem;
+    text-decoration: none;
+    color: lightslategray;
+    padding-right: 20px;
+}
+
+.meetteam .backrow .smedia span a i:hover {
+    text-decoration: none;
+    color: #5768ac;
+}
+
+.meetteam .backrow img{
+    width: 100%;
+    height: 300px;
+    margin-top: -75px;
+}
+
+.meetteam .carousel-inner{
+    padding-top: 25px;
+}
+
+.meetteam .carousel-item{
+    margin-bottom: 50px;
+}
+
+.meetteam .fa-arrow-left{
+    background:#fffffe;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: -50px!important;
+    margin-bottom: -50px!important;
+    color: black!important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+}
+
+.meetteam .fa-arrow-right{
+    background:#fffffe;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: -50px!important;
+    margin-bottom: -50px!important;
+    color: black!important;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+}
+
+
+/* ********** Meet Our Team Ended ********** */
+
+
+/*  ********** What We Offer started **********  */
+.course{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    background: #fffffe;
+   
+}
+
+.course h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.course .intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.course-card{
+    text-align: center;
+    height: 425px;
+    margin: 0px 10px;
+    background: white;
+   
+}
+
+.imgdiv{
+    position: relative;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 30vh;
+}
+
+.coursedate{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc{
+    padding: 20px;
+    text-align: left;
+}
+
+.coursc-desc h1{
+    font-size: 0.8rem;
+    color:lightslategray;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.coursc-desc h2{
+    font-size: 1.3em;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.coursc-desc p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc p span{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    color: lightslategrey;
+}
+
+.coursc-desc a{
+    text-transform: uppercase;
+    background: white;
+    color: #5768ac;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid rgb(221, 217, 217);
+    padding: 5px 10px;
+}
+
+.coursc-desc a:hover{
+    text-decoration: none;
+    color: #5768ac;
+}
+
+/*  ********** What We Offer Ended **********  */
+
+/*  ********** Year Of Exp Started **********  */
+.yrofexp{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.yrofexp .container{
+    background: url(../Images/exp.jpg);
+    height: 200px;
+    background-size: 100% 100%;
+    width: 100%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3px;
+    padding: 70px 50px;
+}
+
+.yrofexp .container span i{
+    color: #c6c5ce;
+    font-size: 3rem;
+    font-weight: 0;
+}
+
+.yrofexp .container h1{
+    color: white;
+    margin-bottom: 0!important;
+}
+
+.yrofexp .container h2{
+    color: #c6c5ce;
+    font-size: 0.8rem;
+    
+}
+/*  ********** Year Of Exp Ended **********  */
+
+
+
+
+@media(max-width: 768px){
+
+    .box{
+        margin-top: 0px;
+       margin-bottom: 10px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+
+    .meetteam{
+        height: 130vh;
+    }
+
+    .meetteam .container .intro{
+        padding: 0px 50px;
+    }
+
+    .meetteam .backrow h1{
+        margin-top: 50px;
+    }
+
+    .meetteam .secondrow {
+        margin-top: 100px; 
+    }
+
+    .meetteam .fa-arrow-left{
+        padding:5px;
+        margin-left: 0!important;
+    }
+
+    .meetteam .fa-arrow-right{
+        padding:5px;
+        margin-right: 0!important;
+    }
+
+    .course .intro{
+        padding: 0px 50px;
+    }
+
+    .yrofexp .container{
+        padding: 30px 20px;
+    }
+
+}

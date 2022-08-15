@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+/*  ********** Footer Section Started **********  */
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 100px 20px 100px;
+    background: #263246;
+    position: relative;
+}
+
+.footersection h3{
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4) ;
+}
+
+.footersection h3 i, .footersection li i{
+    color: #5768ac;
+}
+
+.footersection li{
+    margin-bottom: 10px;
+}
+
+.footersection li a{
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: #5c636f;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footersection h2{
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.2rem!important;
+    font-weight: 400;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4) ;
+}
+
+footer div p span a i{
+    color: white;
+    font-size: medium;
+    padding: 0px 10px;
+}
+
+.fspan{
+margin-left: 500px;
+}
+
+#ScrollBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: #5768ac;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ScrollBtn:hover{
+    background: #606060;
+}
+/*  ********** Footer Section Ended **********  */
+@media(max-width: 768px){
+    .footersection{
+        padding: 70px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .footersection h2{
+        margin-top: 20px;
+        margin-bottom: 0px!important;
+    }
+
+    footer .input-group{
+        margin-left: 45px;
+    }
+    footer div p{
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .fspan{
+       line-height: 50px;
+       margin-left: 42px;
+    }
+}

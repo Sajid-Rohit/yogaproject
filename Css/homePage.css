@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/* ********** Banner Started ********** */
+
+.carousel.pointer-event{
+    touch-action: none!important;
+    cursor: visible!important;
+}
+
+.header .corousel-img{
+    width: 100%;
+    height: 100vh;
+}
+
+.fa-arrow-left{
+    background:rgba(53, 51, 51, 0.863);
+    font-size: 15px;
+    padding: 10px;
+    margin-left: -100px!important;
+}
+
+.fa-arrow-right{
+    background:rgba(53, 51, 51, 0.863);
+    font-size: 15px;
+    padding: 10px;
+    margin-right: -100px!important;
+}
+
+.center-div{
+    height: auto;
+    left: 12%!important;
+    bottom: 25%!important;
+    text-align: left!important;
+}
+
+.center-div span{
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+.center-div a{
+   color: white;
+   text-transform: uppercase;
+   padding: 8px 15px 8px 15px;
+   background-color: #5768ac;
+   font-size:0.5em;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.center-div a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* ********** Banner Ended ********** */
+
+/* ********** Welcome To Zogin Started ********** */
+
+.welcomezogin{
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    background: snow;
+}
+
+.firstimg{
+    width: 100%;
+    height: 100vh!important;
+}
+
+.middlesection{
+    margin-bottom: 12px;
+}
+
+.middleimg{
+    width: 100%;
+    height: 49vh!important;
+    margin-left:-20px;
+}
+
+.zodinlogo{
+    font-size: xx-large;
+    color: #5768ac;
+}
+
+.welcomezogin h6{
+    font-size: 0.9rem;
+}
+
+.welcomezogin p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: lightslategray;
+}
+
+.welcometozogin a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 18px;
+    background: #5768ac;
+    font-size: 0.6rem;
+}
+
+.welcometozogin a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ********** Welcome To Zogin Ended ********** */
+
+/* ********** Enjoy All Aspect Of Yoga started ********** */
+
+.aspect{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+}
+
+.headings{
+    margin-bottom: 50px;
+}
+
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.box{
+   /* padding: 1px 20px;*/
+    background: white;
+    text-align: center;
+    /*border: 1px solid transparent;*/
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+    z-index: -1;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+
+.box h6{
+    font-size: 0.7rem;
+    color:black;
+    margin-top: 10px;
+}
+
+
+.box p{
+    font-size: 0.6rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: lightslategray;
+    text-align: center;
+    height: 150px;
+   /* margin-bottom: 50px;*/
+}
+
+.box:hover .box a:after{
+    background: white!important;
+}
+/*
+.backimg{
+    
+    background: rgb(228, 220, 220);
+    height: 100px;
+    width: 100px;
+   /*border-radius: 30% 70% 74% 26% / 40% 30% 70% 60% ;*/
+   /*border-radius: 32% 68% 68% 32% / 40% 37% 63% 60% ;*/
+   /*border-radius: 50% 49% 83% 17% / 49% 48% 52% 50%;*/
+    /*border-radius: 50%;
+   /*border-radius: 50% 49% 62% 18% / 49% 48% 52% 50% ;*/
+   /*margin-left: 20px;
+   margin-top: 20px;
+}
+*/
+
+.box a{
+    position: relative;  
+}
+
+.box a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/*  ********** Enjoy All Aspect Of Yoga Ended **********  */
+
+/*  ********** Why Choose Us Started **********  */
+.choose{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+}
+
+.choosearea{
+    margin: 75px 0;
+}
+
+.choosearea h1{
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.choosearea p{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin-bottom: 40px;
+}
+
+.innerrow{
+    margin-bottom: 50px;
+}
+
+.choosearea i{
+    margin-top: 8px;
+    font-size: 50px;
+    color: #5768ac;
+}
+
+.choosearea h2{
+    font-size: 2rem;
+    margin-bottom: 0!important;
+}
+
+.choosearea h6{
+    font-size: 1rem;
+    color: lightslategray;
+    text-transform: capitalize;
+}
+
+.choosearea img{
+    height: 400px;
+    width: 500px;
+}
+/*  ********** Why Choose Us Ended **********  */
+
+/*  ********** Up Comming Course started **********  */
+.course{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+}
+
+.course h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.intro{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.course-card{
+    text-align: center;
+    height: 425px;
+    margin: 0px 10px;
+    background: white;
+}
+
+.imgdiv{
+    position: relative;
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 30vh;
+}
+
+.coursedate{
+    width: 80px;
+    height: 25px;
+    background: #5768ac;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc{
+    padding: 20px;
+    text-align: left;
+}
+
+.coursc-desc h1{
+    font-size: 0.8rem;
+    color:lightslategray;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.coursc-desc h2{
+    font-size: 1.3em;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.coursc-desc p{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.coursc-desc p span{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    color: lightslategrey;
+}
+
+.coursc-desc a{
+    text-transform: uppercase;
+    background: white;
+    color: #5768ac;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid rgb(221, 217, 217);
+    padding: 5px 10px;
+}
+
+.coursc-desc a:hover{
+    text-decoration: none;
+    color: #5768ac;
+}
+
+/*  ********** Up Comming Course Ended **********  */
+
+/*  ********** Our Gallery Started **********  */
+.gallery{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+}
+
+.gallery h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.gallery p{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.galleryimg{
+    padding: 0!important;
+}
+
+.gallery img{
+    width: 100%;
+    height: 200px;
+    
+}
+/*  ********** Our Gallery Ended **********  */
+
+/*  ********** Meet Our Instrucror Started **********  */
+.instructor{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+}
+
+.instructor h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.instructor p{
+    font-size: 0.7rem;
+    color: lightslategray;
+    margin: 20px 0;
+    padding: 0px 300px;
+}
+
+.instructor h2{
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.instructor h3{
+    font-size: 0.8rem;
+    color: lightslategray;
+}
+
+/*  ********** Meet Our Instrucror Ended **********  */
+
+/*  ********** Make An Appointment Started **********  */
+
+.appointment{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 30px;
+    padding-left:110px ;
+    padding-right:110px ;
+    padding-bottom: 30px;
+
+}
+
+.appointmentback{
+    background:#5768ac ;
+    height: 60vh;
+    width: 100%!important;
+}
+.appointment i{
+    margin-bottom: 30px;
+    font-size: x-large;
+    color: white;
+}
+
+.appointment h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+}
+
+.appointment select,.appointment input{
+    width: 48% !important;
+    float: left!important;
+    margin-left: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+.appointment textarea{
+    width: 97%!important;
+    margin-left: 10px!important;
+}
+
+.appointment select,.appointment input,.appointment textarea{
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.appointment ::placeholder{
+    color: white!important;
+}
+.appointment select, .appointment input,.appointment textarea{
+    font-size: 0.9rem!important;
+    color: white!important;
+    background-color: #7986bc!important;
+    border: #7986bc!important;
+    border-radius: 0px!important;
+}
+
+.appointment button{
+    color: #5768ac;
+    background: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    border: white!important;
+    border-radius: 0px!important;
+    text-align: center!important;
+    letter-spacing: 2px;
+    padding: 8px 20px!important;
+    font-weight: 800!important;
+    margin-top: -5px!important;
+    border-radius: 3px!important;
+}
+
+.appointment button:hover{
+    color: #5768ac;
+    background: white;
+}
+/*  ********** Make An Appointment Ended **********  */
+
+/*  ********** Our Happy Customer Started **********  */
+.happyclients{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 50px;
+    background: snow;
+    padding-top: 50px;
+}
+
+.happyclientsInfo h1{
+    font-size: 8rem;
+    color: #5768ac;
+    margin-bottom: -40px;
+}
+
+.happyclientsInfo p{
+    font-size: 1.2rem;
+}
+
+.happyclientsInfo a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.happyclientsInfo h5{
+    margin-top: 20px;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.happyclientsInfo h5 span{
+    font-size: 0.5rem;
+    color: lightslategray;
+}
+
+.happyclients .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+}
+
+.happyclients .carousel-indicators li{
+    height:10px!important;
+    width: 10px!important;
+    background-color: lightslategray!important;
+    border-radius: 50%!important;
+    margin-right: 5px!important;
+  margin-left: 5px!important;
+  border:3px solid transparent!important;
+}
+
+.happyclients .carousel-indicators .active {
+    border:2px solid lightslategray!important ;
+    background: transparent!important;
+    background-color: #5768ac!important;
+    background-size: 5px!important;
+}
+/*  ********** Our Happy Customer Ended **********  */
+
+
+@media(max-width: 768px){
+
+     .fa-arrow-left{
+        font-size: 10px;
+        margin-left: 0!important;
+    }
+    
+    .fa-arrow-right{
+        font-size: 10px;
+        margin-right: 0px!important;
+    }
+    
+    .middleimg{
+        margin-left: 0px;
+        margin-left:-20px;
+    }
+
+    .welcometozogin{
+        text-align: center;
+    }
+
+    .box{
+        margin-top: 0px;
+       margin-bottom: 10px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+
+    .choosearea{
+        margin-top: 50px ;
+        margin-bottom: 0;
+    }
+    .choosearea h1{
+       text-align: center;
+    }
+    
+    .choosearea i{
+        margin-top: 8px;
+        font-size: 30px;
+    }
+
+    .choosearea img{
+       background: snow;
+    }
+
+    .intro{
+        padding: 0px 50px;
+    }
+
+    .gallery p{
+        padding: 0px 50px;
+    }
+
+    .instructor p{
+        padding: 0px 50px;
+    }
+
+    .appointment{
+        padding-left:20px ;
+        padding-right:20px ;
+    }
+
+    .appointmentback{
+        height: 65vh;
+    }
+
+    .appointment select,.appointment input{
+        width: 100% !important;
+        float: none!important;
+        margin-left: 0px!important;
+        margin-bottom: 0px!important;
+    }
+
+    .appointment textarea{
+        width: 100%!important;
+        margin-left: 00px!important;
+    }
+
+    .happyclients{
+        height: 80vh;
+    }
+}
+
